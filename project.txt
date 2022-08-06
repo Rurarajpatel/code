@@ -1,0 +1,746 @@
+package vehicle_project;
+
+
+
+//package VEHICLE_SHOWROOM;
+import java.util.Scanner;
+
+class VEHICLE_SHOWROOM
+{
+Scanner sc=new Scanner(System.in);
+public void WELCOME()
+{
+   System.out.println("WELCOME TO VEHICLE SHOWROOM");
+System.out.println("*******************************************************************************************************************************************************************************************************************");
+}
+}
+class ALL_VEHICLE extends VEHICLE_SHOWROOM
+{
+public void choice()
+{
+System.out.println("*******************************************************************************************************************************************************************************************************************");
+System.out.println("THANKS VEHICLE CHOICE COMPLETED");
+System.out.println("*******************************************************************************************************************************************************************************************************************");
+}
+}
+
+class TWO_WHEELER extends ALL_VEHICLE
+{
+public void TWO_WHEELER1()
+{
+//TWO WHEELER
+{
+System.out.println("YOU HAVE CHOOSEN TWO WHEELER");
+System.out.println("*******************************************************************************************************************************************************************************************************************");
+       System.out.println("PLEASE CHOOSE FUEL TYPE: 1.ELECTRIC VEHICLE 2.PETROL VEHICLE");
+System.out.println("ENTER INPUT");
+int FUELEV=sc.nextInt();
+switch (FUELEV)
+{
+//ELECTRIC TWO WHEELER
+case 1:
+System.out.println("YOU HAVE CHOOSEN ELECTRIC TWO WHEELER");
+System.out.println("*******************************************************************************************************************************************************************************************************************");
+System.out.println("PLEASE SELECT BRAND: 1.OLA 2.HERO 3.OKINAWA");
+
+//ELECTRIC TWO WHEELER BRAND
+       int BRAND2WE=sc.nextInt();
+switch(BRAND2WE)
+{
+case 1:
+System.out.println("YOU HAVE CHOOSEN OLA ELECTRIC SCOOTY");
+      System.out.println("PLEASE CHOOSE OLA BIKES:1.S1 2.S1 PRO ");
+int OLASCOOTY=sc.nextInt();
+switch(OLASCOOTY)
+{
+case 1:
+System.out.println("BIKE NAME:OLA S1");
+System.out.println("FUEL TYPE:ELECTRIC");
+System.out.println("MAX SPEED:110KM/H");
+System.out.println("RANGE:120KM/CHARGE");
+System.out.println("PRICE:100000");
+break;
+case 2:
+System.out.println("BIKE NAME:OLA S1");
+System.out.println("FUEL TYPE:ELECTRIC");
+System.out.println("MAX SPEED:120KM/H");
+System.out.println("RANGE:180KM/CHARGE");
+System.out.println("PRICE:120000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+break;
+case 2:
+System.out.println("YOU HAVE CHOOSEN HERO ELECTRIC BIKE");
+      System.out.println("PLEASE CHOOSE HERP ELECTRIC BIKES:1.PHOTON 2.FLASH 3.AE47 4.NYX HX ");
+int HEROSCOOTY=1;
+switch (HEROSCOOTY)
+{case 1:
+System.out.println("BIKE NAME:PHOTON");
+System.out.println("FUEL TYPE:ELECTRIC");
+System.out.println("MAX SPEED:80 KM/H");
+System.out.println("RANGE:108KM/CHARGE");
+System.out.println("PRICE:80000");
+break;
+case 2:
+System.out.println("BIKE NAME:FLASH");
+System.out.println("FUEL TYPE:ELECTRIC");
+System.out.println("MAX SPEED:80 KM/H");
+System.out.println("RANGE 50 KM/CHARGE");
+System.out.println("PRICE:50000");
+break;
+       case 3:
+System.out.println("BIKE NAME:AE47");
+System.out.println("FUEL TYPE:ELECTRIC");
+System.out.println("MAX SPEED:160 KM/H");
+System.out.println("RANGE 90 KM/CHARGE");
+System.out.println("PRICE:125000");
+break;
+case 4:
+      System.out.println("BIKE NAME:NYX HX");
+System.out.println("FUEL TYPE:ELECTRIC");
+System.out.println("MAX SPEED:42 KM/H");
+System.out.println("RANGE 165 KM/CHARGE");
+System.out.println("PRICE:75000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+       break;
+       case 3:
+System.out.println("YOU HAVE CHOOSEN OKINAWA ELECTRIC SCOOTY");
+System.out.println("PLEASE CHOOSE OKINAWA BIKES:1.OKHI-90 2.PRAISE 3.IPRAISE 4.R30 ");
+int OKINAWA=sc.nextInt();
+switch (OKINAWA)
+{case 1:
+System.out.println("BIKE NAME:OKHI-90");
+System.out.println("FUEL TYPE:ELECTRIC");
+System.out.println("MAX SPEED:90 KM/H");
+System.out.println("RANGE:160 KM/CHARGE");
+System.out.println("PRICE:108000");
+break;
+case 2:
+System.out.println("BIKE NAME:PRAISE");
+System.out.println("FUEL TYPE:ELECTRIC");
+System.out.println("MAX SPEED:70 KM/H");
+System.out.println("RANGE: 140 KM/CHARGE");
+System.out.println("PRICE:80000");
+break;
+       case 3:
+System.out.println("BIKE NAME:IPRAISE");
+System.out.println("FUEL TYPE:ELECTRIC");
+System.out.println("MAX SPEED:100 KM/H");
+System.out.println("RANGE: 150 KM/CHARGE");
+System.out.println("PRICE:110000");
+break;
+case 4:
+      System.out.println("BIKE NAME:R30");
+System.out.println("FUEL TYPE:ELECTRIC");
+System.out.println("MAX SPEED:55 KM/H");
+System.out.println("RANGE: 90 KM/CHARGE");
+System.out.println("PRICE:65000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+break;
+
+//PETROL TWO WHEELER
+case 2:
+      System.out.println("YOU HAVE CHOOSEN PETROL TWO WHEELER");
+System.out.println("*******************************************************************************************************************************************************************************************************************");
+System.out.println("PLEASE SELECT BRAND:1.HERO 2.BAJAJ 3.HONDA");
+      int BRAND2WP=sc.nextInt();
+switch(BRAND2WP)
+{
+//PETROL TWO WHEELER BRAND
+
+case 1:
+System.out.println("YOU HAVE CHOOSEN PETROL BAJAJ BIKE");
+System.out.println("PLEASE CHOOSE HERO BIKES:1.SPLENDOR 2.PASSION 3.X PULSE 4.MAESTRO");
+      int HEROBIKE=sc.nextInt();
+switch(HEROBIKE)
+{
+////HERO TWO WHEELERS NAME AND SPECIFICATION
+
+case 1:
+System.out.println("BIKE NAME:SPLENDOR");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:110");
+System.out.println("MILAGE:65PL");
+System.out.println("PRICE:68000");
+break;
+case 2:
+System.out.println("BIKE NAME:PASSION");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:112");
+System.out.println("MILAGE:60PL");
+System.out.println("PRICE:72000");
+break;
+       case 3:
+System.out.println("BIKE NAME:X PULSE");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:200");
+System.out.println("MILAGE:35PL");
+System.out.println("PRICE:150000");
+break;
+case 4:
+      System.out.println("SCOOTY NAME:MAESTRO");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:125");
+System.out.println("MILAGE:40PL");
+System.out.println("PRICE:85000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+break;
+ 
+//BAJAJ TWO WHEELERS
+
+case 2:
+System.out.println("YOU HAVE CHOOSEN PETROL BAJAJ BIKE");
+System.out.println("PLEASE CHOOSE BAJAJ BIKES:1.DISCOVER 2.PULSAR 150 3.PULSAR 220 4.DOMINOR 400");
+      int BAJAJBIKE=sc.nextInt();
+switch(BAJAJBIKE)
+{
+////BAJAJ TWO WHEELERS NAME AND SPECIFICATION
+
+case 1:
+System.out.println("BIKE NAME:DISCOVER");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:110");
+System.out.println("MILAGE:70PL");
+System.out.println("PRICE:57000");
+break;
+case 2:
+System.out.println("BIKE NAME:PULSAR 150");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:150");
+System.out.println("MILAGE:45");
+System.out.println("PRICE:100000");
+break;
+       case 3:
+System.out.println("BIKE NAME:PULSAR 220");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:220");
+System.out.println("MILAGE:35PL");
+System.out.println("PRICE:131000");
+break;
+case 4:
+      System.out.println("BIKE NAME:DOMINOR");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:400");
+System.out.println("MILAGE:25PL");
+System.out.println("PRICE:250000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+break;
+
+       case 3:
+System.out.println("YOU HAVE CHOOSEN PETROL HONDA BIKE");
+System.out.println("PLEASE CHOOSE HONDA BIKES:1.SPLENDOR");
+      int HONDABIKE=sc.nextInt();
+switch(HONDABIKE)
+{
+////HERO TWO WHEELERS NAME AND SPECIFICATION
+
+case 1:
+System.out.println("BIKE NAME:SPLENDOR");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:110");
+System.out.println("MILAGE:65PL");
+System.out.println("PRICE:81000");
+break;
+case 2:
+System.out.println("BIKE NAME:SPLENDOR");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:110");
+System.out.println("MILAGE:65PL");
+System.out.println("PRICE:81000");
+break;
+       case 3:
+System.out.println("BIKE NAME:SPLENDOR");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:110");
+System.out.println("MILAGE:65PL");
+System.out.println("PRICE:81000");
+break;
+case 4:
+      System.out.println("BIKE NAME:SPLENDOR");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:110");
+System.out.println("MILAGE:65PL");
+System.out.println("PRICE:81000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+}
+
+}
+}
+}
+}
+
+
+
+
+class FOUR_WHEELER extends ALL_VEHICLE
+{
+public void FOUR_WHEELER1()
+{
+
+//FOUR WHEELER
+
+System.out.println("YOU HAVE CHOOSEN FOUR WHEELER");
+System.out.println("*******************************************************************************************************************************************************************************************************************");
+       System.out.println("PLEASE CHOOSE FUEL TYPE: 1.ELECTRIC VEHICLE 2.PETROL VEHICLE");
+System.out.println("ENTER INPUT");
+int FUELPET=sc.nextInt();
+switch (FUELPET)
+{
+case 1:
+System.out.println("YOU HAVE CHOOSEN ELECTRIC FOUR WHEELER");
+      System.out.println("*******************************************************************************************************************************************************************************************************************");
+System.out.println("PLEASE SELECT BRAND");
+System.out.println("PLEASE CHOOSE BRAND IN ELECTRIC VEHICLE:1.TATA EV 2.MAHINDRA EV 3.MG");
+      int BRAND4WEV=sc.nextInt();
+switch(BRAND4WEV)
+{
+//ELECTRIC FOUR WHEELER
+
+case 1:
+System.out.println("TATA");
+System.out.println("YOU HAVE CHOOSEN TATA ELECTRIC VEHICLE");
+System.out.println("PLEASE CHOOSE TATA ELECTRIC VEHICLE:1.TIGOR EV 2.NEXON EV 3.TIAGO EV 4.SIERRA EV");
+      int TATACAREV=sc.nextInt();
+switch(TATACAREV)
+{
+////TATA ELECTRIC FOUR WHEELERS NAME AND SPECIFICATION
+
+case 1:
+System.out.println("CAR NAME:TIGOR EV");
+System.out.println("FUEL TYPE:EV");
+System.out.println("TOP SPEED:90");
+System.out.println("KM/CHARGE:150KM");
+System.out.println("PRICE:1300000");
+break;
+case 2:
+System.out.println("CAR NAME:NEXON EV");
+System.out.println("FUEL TYPE:EV");
+System.out.println("TOP SPEED:130");
+System.out.println("KM/CHARGE:180");
+System.out.println("PRICE:200000");
+break;
+       case 3:
+System.out.println("CAR NAME:TIAGO EV");
+System.out.println("FUEL TYPE:EV");
+System.out.println("TOP SPEED:80");
+System.out.println("KM/CHARGE:110");
+System.out.println("PRICE:900000");
+break;
+case 4:
+     System.out.println("CAR NAME:SIERRA EV");
+System.out.println("FUEL TYPE:EV");
+System.out.println("TOP SPEED:150");
+System.out.println("KM/CHARGE:200");
+System.out.println("PRICE:2700000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+break;
+case 2:
+System.out.println("YOU HAVE CHOOSEN MAHINDRA ELECTRIC VEHICLE");
+System.out.println("PLEASE CHOOSE MAHINDRA ELECTRIC VEHICLE:1.VERITO EV 2.XUV 300 EV 3.KUV 100 EV 4.BOLERO NEO EV");
+      int MAHINDRACAREV=sc.nextInt();
+switch(MAHINDRACAREV)
+{
+////MAHINDRA ELECTRIC FOUR WHEELERS NAME AND SPECIFICATION
+
+case 1:
+System.out.println("CAR NAME:VERITO EV");
+System.out.println("FUEL TYPE:EV");
+System.out.println("TOP SPEED:90");
+System.out.println("KM/CHARGE:150KM");
+System.out.println("PRICE:1000000");
+break;
+case 2:
+System.out.println("CAR NAME:XUV 300 EV");
+System.out.println("FUEL TYPE:EV");
+System.out.println("TOP SPEED:130");
+System.out.println("KM/CHARGE:180");
+System.out.println("PRICE:2000000");
+break;
+       case 3:
+System.out.println("CAR NAME:KUV 100 EV");
+System.out.println("FUEL TYPE:EV");
+System.out.println("TOP SPEED:80");
+System.out.println("KM/CHARGE:110");
+System.out.println("PRICE:900000");
+break;
+case 4:
+     System.out.println("CAR NAME:BOLERO NEO EV");
+System.out.println("FUEL TYPE:EV");
+System.out.println("TOP SPEED:150");
+System.out.println("KM/CHARGE:200");
+System.out.println("PRICE:2700000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+break;
+       case 3:
+System.out.println("MG");
+System.out.println("YOU HAVE CHOOSEN MG ELECTRIC VEHICLE");
+System.out.println("PLEASE CHOOSE MG ELECTRIC VEHICLE:1.TIGOR EV 2.HECTOR EV 3.MG GLOSTER EV EV 4.MG ZS EV");
+      int MGCAREV=sc.nextInt();
+switch(MGCAREV)
+{
+////MG ELECTRIC FOUR WHEELERS NAME AND SPECIFICATION
+
+case 1:
+System.out.println("CAR NAME:MG ASTOR EV");
+System.out.println("FUEL TYPE:EV");
+System.out.println("TOP SPEED:90");
+System.out.println("KM/CHARGE:150KM");
+System.out.println("PRICE:1100000");
+break;
+case 2:
+System.out.println("CAR NAME:HECTOR EV");
+System.out.println("FUEL TYPE:EV");
+System.out.println("TOP SPEED:130");
+System.out.println("KM/CHARGE:180");
+System.out.println("PRICE:2000000");
+break;
+       case 3:
+System.out.println("CAR NAME:MG GLOSTER EV");
+System.out.println("FUEL TYPE:EV");
+System.out.println("TOP SPEED:80");
+System.out.println("KM/CHARGE:110");
+System.out.println("PRICE:2900000");
+break;
+case 4:
+     System.out.println("CAR NAME:MG ZS EV");
+System.out.println("FUEL TYPE:EV");
+System.out.println("TOP SPEED:150");
+System.out.println("KM/CHARGE:200");
+System.out.println("PRICE:2700000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+      }
+break;
+
+//PETROL FOUR WHEELER
+case 2:
+System.out.println("YOU HAVE CHOOSEN PETROL FOUR WHEELER");
+System.out.println("*******************************************************************************************************************************************************************************************************************");
+System.out.println("PLEASE SELECT BRAND: 1.TATA 2.MAHINDRA 3.HYUNDAI 4.SKODA");
+      int BRAND4WP=sc.nextInt();
+switch(BRAND4WP)
+
+//PETROL FOUR WHEELER BRAND
+{
+case 1:
+System.out.println("YOU HAVE CHOOSEN PETROL TATA FOUR WHEELER");
+System.out.println("PLEASE CHOOSE TATA FOUR WHEELER:1.PUNCH 2.NEXON 3.HARRIER 4.SAFARI");
+      int TATACARPV=sc.nextInt();
+switch(TATACARPV)
+{
+//TATA PETROL FOUR WHEELERS NAME AND SPECIFICATION
+
+case 1:
+System.out.println("CAR NAME:PUNCH");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:1200");
+System.out.println("MILAGE:19PL");
+System.out.println("PRICE:850000");
+break;
+case 2:
+System.out.println("CAR NAME:NEXON");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:1500");
+System.out.println("MILAGE:22PL");
+System.out.println("PRICE:1250000");
+break;
+       case 3:
+System.out.println("CAR NAME:HARRIER");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:2000000");
+System.out.println("MILAGE:17PL");
+System.out.println("PRICE:2000000");
+break;
+case 4:
+      System.out.println("CAR NAME:SAFARI");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:2000");
+System.out.println("MILAGE:16PL");
+System.out.println("PRICE:2400000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+break;
+case 2:
+System.out.println("YOU HAVE CHOOSEN PETROL MAHINDRA FOUR WHEELER");
+System.out.println("PLEASE CHOOSE MAHINDRA FOUR WHEELER:1.KUV 100 2.XUV 300 3.XUV 700 4.ALTURAS G4");
+      int MAHINDRACARPV=sc.nextInt();
+switch(MAHINDRACARPV)
+{
+//MAHINDRA PETROL FOUR WHEELERS NAME AND SPECIFICATION
+
+case 1:
+System.out.println("CAR NAME:KUV 100");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:1200");
+System.out.println("MILAGE:19PL");
+System.out.println("PRICE:850000");
+break;
+case 2:
+System.out.println("CAR NAME:XUV 300");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:1500");
+System.out.println("MILAGE:22PL");
+System.out.println("PRICE:1250000");
+break;
+       case 3:
+System.out.println("CAR NAME:XUV 700");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:2000000");
+System.out.println("MILAGE:17PL");
+System.out.println("PRICE:2000000");
+break;
+case 4:
+      System.out.println("CAR NAME:ALTURAS G4");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:2000");
+System.out.println("MILAGE:16PL");
+System.out.println("PRICE:2400000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+break;
+       case 3:
+System.out.println("YOU HAVE CHOOSEN PETROL HYUNDAI FOUR WHEELER");
+System.out.println("PLEASE CHOOSE HYUNDAI FOUR WHEELER:1.AURA 2.VERNA 3.CRETA 4.ALCAZAR");
+      int HYUNDAICARPV=sc.nextInt();
+switch(HYUNDAICARPV)
+{
+//HYUNDAI PETROL FOUR WHEELERS NAME AND SPECIFICATION
+
+case 1:
+System.out.println("CAR NAME:AURA");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:1200");
+System.out.println("MILAGE:19PL");
+System.out.println("PRICE:850000");
+break;
+case 2:
+System.out.println("CAR NAME:VERNA");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:1500");
+System.out.println("MILAGE:22PL");
+System.out.println("PRICE:1250000");
+break;
+       case 3:
+System.out.println("CAR NAME:CRETA");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:2000000");
+System.out.println("MILAGE:17PL");
+System.out.println("PRICE:2000000");
+break;
+case 4:
+      System.out.println("CAR NAME:ALCAZAR");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:2000");
+System.out.println("MILAGE:16PL");
+System.out.println("PRICE:2400000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+
+break;
+case 4:
+System.out.println("YOU HAVE CHOOSEN PETROL SKODA FOUR WHEELER");
+System.out.println("PLEASE CHOOSE SKODA FOUR WHEELER:1.FABIA 2.SLAVIA 3.OCTAVIA 4.KODIAQUE");
+      int SKODACARPV=sc.nextInt();
+switch(SKODACARPV)
+{
+//HYUNDAI PETROL FOUR WHEELERS NAME AND SPECIFICATION
+
+case 1:
+System.out.println("CAR NAME:FABIA");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:1200");
+System.out.println("MILAGE:19PL");
+System.out.println("PRICE:850000");
+break;
+case 2:
+System.out.println("CAR NAME:SLAVIA");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:1500");
+System.out.println("MILAGE:22PL");
+System.out.println("PRICE:1250000");
+break;
+       case 3:
+System.out.println("CAR NAME:OCTAVIA");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:2000000");
+System.out.println("MILAGE:17PL");
+System.out.println("PRICE:2000000");
+break;
+case 4:
+      System.out.println("CAR NAME:KODIAQUE");
+System.out.println("FUEL TYPE:PETROL");
+System.out.println("CC:2000");
+System.out.println("MILAGE:16PL");
+System.out.println("PRICE:4000000");
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+}
+break;
+default:
+      System.out.println("INVALID INPUT");
+break;
+      }
+break;
+}  
+}
+}
+
+
+class CUSTOMER_DETAILS
+{
+private String name;
+private String contact;
+private int age;
+private String bank;
+
+CUSTOMER_DETAILS(String name, String contact, int age, String bank)
+{
+this.name=name;
+this.contact=contact;
+this.age=age;
+this.bank=bank;
+
+}
+
+public String getName()
+{
+return name;
+}
+public void setName( String name)
+{
+this.name=name;
+}
+public String getContact()
+{
+return contact;
+}
+public void setContact( String contact)
+{
+this.contact=contact;
+}
+public int getAge()
+{
+return age;
+}
+public void setAge( int age)
+{
+this.age=age;
+}
+public String getBank()
+{
+return bank;
+}
+public void setBank( String bank)
+{
+this.bank=bank;
+}
+
+
+}
+
+//DRIVER CLASS
+class DRIVER
+{
+public static void main(String[]args)
+{
+VEHICLE_SHOWROOM VEH=new VEHICLE_SHOWROOM();
+VEH.WELCOME();
+System.out.println("CHOOSE VEHICLE TYPE: 1.TWO WHEELER 2.FOUR WHEELER");
+System.out.println("ENTER INPUT");
+Scanner FB=new Scanner(System.in);
+int number = FB.nextInt();
+
+switch (number)
+{
+case 1: TWO_WHEELER ref11=new TWO_WHEELER();
+ref11.TWO_WHEELER1();
+break;
+
+case 2: FOUR_WHEELER ref22=new FOUR_WHEELER();
+ref22.FOUR_WHEELER1();
+break;
+}
+
+ALL_VEHICLE greet=new  ALL_VEHICLE();
+greet.choice();
+  System.out.println("ENTER CUSTOMER DETAILS:");
+System.out.println("ENTER NAME:");
+String NN=FB.next();
+System.out.println("ENTER CONTACT:");
+String CC=FB.next();
+System.out.println("ENTER AGE:");
+int AA=FB.nextInt();
+System.out.println("ENTER BANK:");
+String BB=FB.next();
+CUSTOMER_DETAILS z=new CUSTOMER_DETAILS(NN,CC,AA, BB);
+//z.setName("ROMESH GUPTA");
+//z.setContact("+919004004857");
+//z.setAge(25);
+//z.setBank("STATE BANK OF INDIA");
+//public void display()
+  System.out.println("NAME:"+ z.getName());
+System.out.println("CONTACT NO:"+ z.getContact());
+System.out.println("AGE:"+ z.getAge());
+System.out.println("bank:"+ z.getBank());
+System.out.println("PLEASE VERIFY YOUR ALL DETAILS");
+System.out.println("*******************************************************************************************************************************************************************************************************************");
+System.out.println("WE WILL CONTACT YOU FOR FURTHER PROCESS");
+System.out.println("THANKS FOR VISITING VEHICLE SHOWROOM");
+System.out.println("*******************************************************************************************************************************************************************************************************************");
+
+}
+}
